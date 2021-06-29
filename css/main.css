@@ -1,0 +1,293 @@
+/*Personalização do cabeçalho*/
+body{ 
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 970px;
+    position: relative;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color:#EFEFEF;
+    height: 110px;
+}
+
+.logo{
+    float: left;
+    padding: 10px;
+    width: 75%;
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.redes-sociais ul li{
+    margin-left: 10px;
+    margin-top: 20px;
+    top: 50px;
+    display: inline-block;
+    list-style: none;
+
+}
+
+.redes-sociais{
+    float: right;
+}
+
+/*Personalização do menu*/
+
+.header-principal{
+    background-color: #CFC5C3;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu-url{
+    height: 55px;
+    border-bottom: 2px solid #a0a2a5;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #020202;
+    margin-left: 15px;
+    height: 39px;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid #EFEFEF;
+}
+
+.menu ul li a:hover{
+    color: #EFEFEF;
+}
+
+.menu ul li a{
+    color: #1B1B1B;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font: normal normal normal 20px/1.35em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+}
+
+.col-1{
+    width: 100%;
+    background-color: #CFC5C3;
+    float: left;
+    position: relative;
+}
+
+/*Personalização da biblioteca slick para a mudança de foto*/
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('../img/flecha\ esquerda.png');
+    position: absolute;
+    z-index: 9;
+    top: 60%;
+    left: 10px;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url('../img/flecha\ direita.png');
+    position: absolute;
+    z-index: 9;
+    top: 60%;
+    right: 10px;
+}
+
+.slider-principal img{
+    width: 100%;
+    height: 500px;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #ffff;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 92%;
+}
+
+li.slick-active button{
+    background: #CFC5C3;
+
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/*Personalização do texto que contém o horário*/
+.texto-horario{
+    text-align: center;
+    color: #1B1B1B;
+    font: normal normal normal 20px/1.35em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+}
+
+.texto-horario h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.texto-horario p{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.bloco-horario {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font: normal normal normal 15px/1.35em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+}
+
+.col-2{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+/*Personalização do bloco de imagens*/
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 320px;
+    border: 1px solid #CFC5C3;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: center;
+}
+
+.bloco-imagens-texto {
+    background-color: #EFEFEF;
+} 
+
+.bloco-imagens-texto:before{
+    width: 100%;
+    display:inline-block;
+    content: "";
+    height: 70px;
+    background-color:#CFC5C3;
+    background-repeat: no-repeat;
+    background-image: url("../img/flecha\ cima.png");
+    background-position: center;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-3 img {
+ cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+
+.col-3 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+/*Personalização do rodapé*/
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    background-color: #CFC5C3;
+    font: normal normal normal 15px/1em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+    color: #1B1B1B;
+}
+
+.footer-fim {
+    background-image: url('../img/footer2.png');
+    background-color: #747882;
+    color: #ffffff;
+    height: 50px;
+    font: normal normal normal 10px/1.35em brandon-grot-w01-light,brandon-grot-w05-light,sans-serif;
+}
+
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+
+.footer-fim p {
+    padding: 10px;
+}
+
+/*Personalização dos dados de contato*/
+.local:before, .email:before, .telefone:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.email:before {
+    background-image: url('../img/email.png');
+}  
+.telefone:before {
+    background-image: url('../img/telefone.png');
+}  
